@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1880A4A18A9C9FF00443688 /* z1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880A4818A9C9FF00443688 /* z1.PNG */; };
-		D1880A4B18A9C9FF00443688 /* z2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880A4918A9C9FF00443688 /* z2.PNG */; };
-		D1880A4F18A9CBCF00443688 /* bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = D1880A4E18A9CBCF00443688 /* bomb.m */; };
-		D1880A5118AAF98600443688 /* sball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1880A5018AAF98600443688 /* sball.jpg */; };
-		D1880A5318AC697A00443688 /* z3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880A5218AC697A00443688 /* z3.PNG */; };
-		D1880A5518AC698000443688 /* z4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880A5418AC698000443688 /* z4.PNG */; };
-		D1880A5918AC72D200443688 /* z5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880A5818AC72D200443688 /* z5.PNG */; };
+		D1880B1018C67F9600443688 /* ant.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1880B0F18C67F9600443688 /* ant.PNG */; };
+		D1880B6918DBCBD300443688 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1880B6818DBCBD300443688 /* flower.jpg */; };
 		D1895A191895DA63005D9D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1895A181895DA63005D9D70 /* Foundation.framework */; };
 		D1895A1B1895DA63005D9D70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1895A1A1895DA63005D9D70 /* CoreGraphics.framework */; };
 		D1895A1D1895DA63005D9D70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1895A1C1895DA63005D9D70 /* UIKit.framework */; };
@@ -31,8 +26,14 @@
 		D1895A4F1895F14F005D9D70 /* AsteroidView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1895A4E1895F14F005D9D70 /* AsteroidView.m */; };
 		D1895A5618972B94005D9D70 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5518972B94005D9D70 /* Sprite.m */; };
 		D1895A5918A08607005D9D70 /* VectorSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5818A08607005D9D70 /* VectorSprite.m */; };
-		D1895A5C18A315B4005D9D70 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5B18A315B4005D9D70 /* AtlasSprite.m */; };
-		D1895AA618A707FB005D9D70 /* mario.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1895AA518A707FB005D9D70 /* mario.PNG */; };
+		D1895A5C18A315B4005D9D70 /* Animaprite.m in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5B18A315B4005D9D70 /* Animaprite.m */; };
+		D18B00D418DF786C00159792 /* antl.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D18B00D318DF786C00159792 /* antl.PNG */; };
+		D18B00D618E2524F00159792 /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = D18B00D518E2524F00159792 /* leaf.png */; };
+		D18B00DA18E38E7F00159792 /* soil.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D18B00D918E38E7F00159792 /* soil.PNG */; };
+		D18B00DC18E38E8400159792 /* glass.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D18B00DB18E38E8400159792 /* glass.PNG */; };
+		D18B00DE18E38E8900159792 /* tree.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D18B00DD18E38E8900159792 /* tree.PNG */; };
+		D18B00E018E3955800159792 /* antdie.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D18B00DF18E3955800159792 /* antdie.PNG */; };
+		D1918EAE18DEBC34009359DB /* ju.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1918EAD18DEBC34009359DB /* ju.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D1880A4818A9C9FF00443688 /* z1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z1.PNG; sourceTree = SOURCE_ROOT; };
-		D1880A4918A9C9FF00443688 /* z2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z2.PNG; sourceTree = SOURCE_ROOT; };
-		D1880A4D18A9CBCF00443688 /* bomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bomb.h; sourceTree = "<group>"; };
-		D1880A4E18A9CBCF00443688 /* bomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bomb.m; sourceTree = "<group>"; };
-		D1880A5018AAF98600443688 /* sball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sball.jpg; sourceTree = SOURCE_ROOT; };
-		D1880A5218AC697A00443688 /* z3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z3.PNG; sourceTree = SOURCE_ROOT; };
-		D1880A5418AC698000443688 /* z4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z4.PNG; sourceTree = SOURCE_ROOT; };
-		D1880A5818AC72D200443688 /* z5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z5.PNG; sourceTree = SOURCE_ROOT; };
+		D1880B0F18C67F9600443688 /* ant.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ant.PNG; sourceTree = SOURCE_ROOT; };
+		D1880B6818DBCBD300443688 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = SOURCE_ROOT; };
 		D1895A151895DA63005D9D70 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1895A181895DA63005D9D70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1895A1A1895DA63005D9D70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +74,15 @@
 		D1895A5518972B94005D9D70 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		D1895A5718A08607005D9D70 /* VectorSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorSprite.h; sourceTree = "<group>"; };
 		D1895A5818A08607005D9D70 /* VectorSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorSprite.m; sourceTree = "<group>"; };
-		D1895A5A18A315B4005D9D70 /* AtlasSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSprite.h; sourceTree = "<group>"; };
-		D1895A5B18A315B4005D9D70 /* AtlasSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSprite.m; sourceTree = "<group>"; };
-		D1895AA518A707FB005D9D70 /* mario.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.PNG; sourceTree = SOURCE_ROOT; };
+		D1895A5A18A315B4005D9D70 /* Animasprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animasprite.h; sourceTree = "<group>"; };
+		D1895A5B18A315B4005D9D70 /* Animaprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animaprite.m; sourceTree = "<group>"; };
+		D18B00D318DF786C00159792 /* antl.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antl.PNG; sourceTree = SOURCE_ROOT; };
+		D18B00D518E2524F00159792 /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = SOURCE_ROOT; };
+		D18B00D918E38E7F00159792 /* soil.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soil.PNG; sourceTree = SOURCE_ROOT; };
+		D18B00DB18E38E8400159792 /* glass.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.PNG; sourceTree = SOURCE_ROOT; };
+		D18B00DD18E38E8900159792 /* tree.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.PNG; sourceTree = SOURCE_ROOT; };
+		D18B00DF18E3955800159792 /* antdie.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antdie.PNG; sourceTree = SOURCE_ROOT; };
+		D1918EAD18DEBC34009359DB /* ju.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ju.PNG; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,10 +193,8 @@
 				D1895A5518972B94005D9D70 /* Sprite.m */,
 				D1895A5718A08607005D9D70 /* VectorSprite.h */,
 				D1895A5818A08607005D9D70 /* VectorSprite.m */,
-				D1895A5A18A315B4005D9D70 /* AtlasSprite.h */,
-				D1895A5B18A315B4005D9D70 /* AtlasSprite.m */,
-				D1880A4D18A9CBCF00443688 /* bomb.h */,
-				D1880A4E18A9CBCF00443688 /* bomb.m */,
+				D1895A5A18A315B4005D9D70 /* Animasprite.h */,
+				D1895A5B18A315B4005D9D70 /* Animaprite.m */,
 			);
 			name = class;
 			sourceTree = "<group>";
@@ -203,13 +202,15 @@
 		D1895AA218A7078A005D9D70 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				D1880A5818AC72D200443688 /* z5.PNG */,
-				D1880A5418AC698000443688 /* z4.PNG */,
-				D1880A5218AC697A00443688 /* z3.PNG */,
-				D1880A4818A9C9FF00443688 /* z1.PNG */,
-				D1880A4918A9C9FF00443688 /* z2.PNG */,
-				D1880A5018AAF98600443688 /* sball.jpg */,
-				D1895AA518A707FB005D9D70 /* mario.PNG */,
+				D1880B6818DBCBD300443688 /* flower.jpg */,
+				D1918EAD18DEBC34009359DB /* ju.PNG */,
+				D18B00D518E2524F00159792 /* leaf.png */,
+				D18B00D918E38E7F00159792 /* soil.PNG */,
+				D18B00DD18E38E8900159792 /* tree.PNG */,
+				D18B00D318DF786C00159792 /* antl.PNG */,
+				D18B00DB18E38E8400159792 /* glass.PNG */,
+				D18B00DF18E3955800159792 /* antdie.PNG */,
+				D1880B0F18C67F9600443688 /* ant.PNG */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -266,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1895A101895DA63005D9D70 /* Build configuration list for PBXProject "Asteroids" */;
+			buildConfigurationList = D1895A101895DA63005D9D70 /* Build configuration list for PBXProject "ant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,15 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1880A5918AC72D200443688 /* z5.PNG in Resources */,
-				D1880A4A18A9C9FF00443688 /* z1.PNG in Resources */,
-				D1880A5518AC698000443688 /* z4.PNG in Resources */,
-				D1880A5118AAF98600443688 /* sball.jpg in Resources */,
-				D1895AA618A707FB005D9D70 /* mario.PNG in Resources */,
+				D1880B1018C67F9600443688 /* ant.PNG in Resources */,
 				D1895A311895DA63005D9D70 /* Images.xcassets in Resources */,
-				D1880A4B18A9C9FF00443688 /* z2.PNG in Resources */,
 				D1895A231895DA63005D9D70 /* InfoPlist.strings in Resources */,
-				D1880A5318AC697A00443688 /* z3.PNG in Resources */,
+				D18B00D618E2524F00159792 /* leaf.png in Resources */,
+				D18B00DC18E38E8400159792 /* glass.PNG in Resources */,
+				D1880B6918DBCBD300443688 /* flower.jpg in Resources */,
+				D18B00DE18E38E8900159792 /* tree.PNG in Resources */,
+				D1918EAE18DEBC34009359DB /* ju.PNG in Resources */,
+				D18B00D418DF786C00159792 /* antl.PNG in Resources */,
+				D18B00E018E3955800159792 /* antdie.PNG in Resources */,
+				D18B00DA18E38E7F00159792 /* soil.PNG in Resources */,
 				D1895A2C1895DA63005D9D70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,13 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1895A2F1895DA63005D9D70 /* ViewController.m in Sources */,
-				D1880A4F18A9CBCF00443688 /* bomb.m in Sources */,
 				D1895A291895DA63005D9D70 /* AppDelegate.m in Sources */,
 				D1895A251895DA63005D9D70 /* main.m in Sources */,
 				D1895A5918A08607005D9D70 /* VectorSprite.m in Sources */,
 				D1895A4F1895F14F005D9D70 /* AsteroidView.m in Sources */,
 				D1895A5618972B94005D9D70 /* Sprite.m in Sources */,
-				D1895A5C18A315B4005D9D70 /* AtlasSprite.m in Sources */,
+				D1895A5C18A315B4005D9D70 /* Animaprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +520,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1895A101895DA63005D9D70 /* Build configuration list for PBXProject "Asteroids" */ = {
+		D1895A101895DA63005D9D70 /* Build configuration list for PBXProject "ant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1895A451895DA63005D9D70 /* Debug */,

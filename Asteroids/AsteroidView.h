@@ -8,22 +8,35 @@
 
 #import <UIKit/UIKit.h>
 #include "Sprite.h"
-
+#include "Animasprite.h"
 
 
 @interface AsteroidView : UIView
 {
-    Sprite *test;
-    Sprite *bz1;
-    Sprite *bz2;
-    Sprite *bz3;
-    Sprite *bz4;
-    Sprite *bz5;
+    Sprite *ants[10];
+   // Sprite *maple;
+    Sprite *antdie2[10];
+    Sprite *antl[10];
+    Animasprite *leaf;
+    
     NSTimer *timer;
     int frame;
     int direction;
-    int bzcont;
+    CGFloat touchx;
+    CGFloat touchy;
+    bool touchflag;
+    int diecount;
+    int antmark;
+    UILabel * mark;
+    UITextField * marks;
+    CGFloat otouchx;
+    CGFloat otouchy;
+    int  mapleframe;
+    int level;
+    
 }
- 
+@property (retain, nonatomic) IBOutlet UILabel *mark;
+@property (retain, nonatomic) IBOutlet UITextField *marks;
+//@property (assign) int mapleframe, frame;
 
 @end

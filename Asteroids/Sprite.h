@@ -11,7 +11,7 @@
 
 @interface Sprite : NSObject
 {
-    CGRect box;
+   // CGRect box;
     CGFloat x;
     CGFloat y;
     CGFloat r;
@@ -19,7 +19,7 @@
     CGFloat b;
     CGFloat alpha;
     CGFloat speed;
-    CGFloat angle;
+    CGFloat diek;
     CGFloat rotation;
     CGFloat width;
     CGFloat height;
@@ -27,27 +27,45 @@
     CGFloat left;
     CGFloat top;
     CGFloat cosTheta;
+    CGFloat w;
+    CGFloat h;
+    CGFloat w2;
+    CGFloat h2, sink, cosk, speedk;
+    CGFloat right;
+    CGFloat bottem, sdt;
+   // CGPoint origin;
+   // CGSize  bsize;
+    int dir;
+    BOOL die;
+    BOOL leaf;
+    
+    
+    
+    
     int frame;
     
     CGFloat sinTheta;
     
     
-    BOOL render;
-    BOOL offScreen;
-    BOOL wrap;
+   // BOOL render;
+   // BOOL offScreen;
+   // BOOL wrap;
     BOOL flag;
+   // NSString *stext;
 
 }
 
-@property (assign) CGRect box;
-@property (assign) BOOL wrap, render, offScreen, flag;
-@property (assign) CGFloat x, y, r, g, b, alpha;
-@property (assign) CGFloat speed, angle, rotation;
-@property (assign) CGFloat width, height, scale;
-
+//@property (assign) CGRect box;
+@property (assign) BOOL flag;
+@property (assign) CGFloat x, y, r, g, b, alpha,w,h;
+@property (assign) CGFloat speed, diek, rotation;
+@property (assign) CGFloat width, height, scale,left;
+@property (assign) BOOL die, leaf;
 @property (assign) int frame;
+
 
 - (void) tic: (NSTimeInterval) dt;
 -(void)draw: (CGContextRef) context;
 
+- (void) updateBox;
 @end

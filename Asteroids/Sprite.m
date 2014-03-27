@@ -11,110 +11,108 @@
 
 
 @implementation Sprite
-@synthesize x, y, speed, angle, width, height, scale, frame, box, rotation, wrap, render, flag;
-@synthesize r, g, b, alpha, offScreen;
+@synthesize x, y, speed, diek, width, height, scale, frame, rotation,flag;
+@synthesize r, g, b, alpha, die,w,h,left, leaf;
 
-#define kScreenWidth 320
-#define kScreenHeight 480
 
+#define kScreenWidth 640
+#define kScreenHeight 960
+float sinThet;
+float cosThet;
 
 
 - (void) updateBox
 {
-    CGFloat w = width * scale;
-    CGFloat h = height * scale;
-    CGFloat w2 = w * 0.5;
-    CGFloat h2 = h * 0.5;
-    CGPoint origin = box.origin;
-    CGSize  bsize = box.size;
-     left = - kScreenWidth * 0.5;
-    CGFloat right = - left;
-     top = kScreenHeight * 0.5;
-    CGFloat bottem = -top;
-    
-    
-    offScreen = NO;
-    if (wrap)
-    {
-        if ((x + w2) < left && cosTheta < 0) {cosTheta = -cosTheta; flag = YES;}
-        else if ((x -w2) > right && cosTheta > 0) {cosTheta = -cosTheta;flag = YES;}
-        else if ((y + h2) < bottem && sinTheta < 0) {sinTheta = -sinTheta; flag = YES;}
-        else if ((y - h2) > top && sinTheta > 0) { sinTheta = -sinTheta; flag = YES;}
-    }
-/*    else
-    {
-        offScreen =
-        ((x + w2) < left) ||
-        ((x - w2) > right) ||
-        ((y + h2) < bottem) ||
-        ((y - h2) > top);
-    }*/
-    origin.x = x - w2 * scale;
-    origin.y = y - h2 *scale;
-    bsize.width = w;
-    bsize. height = h;
-    box.origin = origin;
-    box.size = bsize;
+     w = width * scale;
+     h = height * scale;
+     w2 = w * 0.5;
+     h2 = h * 0.5;
+   // origin = box.origin;
+  
+     left = - kScreenWidth * 0.6;
+    right = - left;
+     top = kScreenHeight * 0.6;
+     bottem = -top;
+  
 }
 
 - (void) tic: (NSTimeInterval) dt
 {
-    dt = 0.01;
-    if (!render){ return;}
-    CGFloat sdt = speed * dt;
-    x += sdt * cosTheta;
-    y += sdt * sinTheta;
+    if ((x + w2) < left && cosTheta < 0) {cosTheta = -cosTheta; flag = YES;}
+    else if ((x -w2) > right && cosTheta > 0) {cosTheta = -cosTheta;flag = YES;}
+    else if ((y + h2) < bottem && sinTheta < 0) {sinTheta = -sinTheta; flag = YES;}
+    else if ((y - h2) > top && sinTheta > 0) { sinTheta = -sinTheta; flag = YES;}
+     if (sinTheta>0 && cosTheta>0) {dir = 0;}
+    if (sinTheta>0 && cosTheta<0) {dir = 1;}
+    if (sinTheta<0 && cosTheta<0) {dir = 2;}
+    if (sinTheta<0 && cosTheta>0) {dir = 3;}
+   
+    float anga = (random() % 628)/100;
+    sinThet = sin(anga)/8*diek + sinTheta;
+    cosThet = cos(anga)/8*diek + cosTheta;
+    
+    
+    
+    
+    
+    switch (dir)
+    {
+            float k = (random() % 100)/1000;
+        case 1:
+            rotation = sinThet/cosThet + 1.5  ; break;
+        case 2:
+            rotation = sinThet/cosThet + 1.5  ; break;
+        case 3:
+            rotation = sinThet/cosThet + 4.5  ; break;
+        default:
+            rotation = sinThet/cosThet + 4.5  ;
+            break;
+    }
+    if (flag)
+    {
+        
+        self.leaf = NO;
+        int n;
+        n = (random() % 100) / 10;
+        //sink = n * sinTheta / 0.5;
+       // sink = y/x *sinTheta/0.5;
+       // cosk = n * cosTheta / 0.7;
+       // cosk = y/x* cosTheta/0.5;
+        speedk = random() % 1000;
+        
+    }
+    flag = NO;
+    dt = 0.03;
+ 
+     sdt = (speed+speedk) * dt;
+    x += (sdt * cosThet + cosk) * diek ;
+    y += (sdt * sinThet + sink) * diek ;
+    
+    //x =200 ;
+   // y =200 ;
+    
     if (sdt) {[self updateBox];}
 }
 
 
-
--(void) outlinePath: (CGContextRef) context
-{
-    
-    CGFloat w2 = box.size.width * 0.5;
-    CGFloat h2 = box.size.height * 0.5;
-    
-    
-    CGContextBeginPath(context);
-    CGContextMoveToPoint(context, -w2, -h2);
-    CGContextAddLineToPoint(context, -w2, h2);
-    CGContextAddLineToPoint(context, w2, h2);
-    CGContextAddLineToPoint(context, w2, -h2);
-    
-    CGContextAddLineToPoint(context, -w2, -h2);
-}
-
 -(void)drawBody: (CGContextRef) context
 {
-    CGContextSetRGBFillColor(context, r, g, b, alpha);
-    [self outlinePath: (context)];
-    CGContextDrawPath(context, kCGPathEOFill);
-}
 
+}
+ 
 -(void)draw: (CGContextRef) context
 {
-    box.size.width = width;
-    box.size.height = height;
-    
+
     CGContextSaveGState(context);
     CGAffineTransform t = CGAffineTransformIdentity;
-    t = CGAffineTransformTranslate(t, x + kScreenWidth , y + kScreenHeight );
+    t = CGAffineTransformTranslate(t, x + 320 , y + 480 );
     t = CGAffineTransformRotate(t, rotation);
     t = CGAffineTransformScale(t, scale, scale);
     CGContextConcatCTM(context, t);
-    
-    
-    /*  CGContextBeginPath(context);
-     CGContextSetRGBFillColor(context, 0, 1, 0, 1);
-     CGContextAddRect(context, CGRectMake(0, 0, 100, 200));
-     CGContextClosePath(context);
-     CGContextDrawPath(context, kCGPathEOFill);
-     */
-    
-    
+ 
     [self drawBody:context];
-  //  CGContextRestoreGState(context);
+  //  CGContextDrawPath(context, kCGPathEOFill);
+  
 }
 
 -(id) init
@@ -122,12 +120,12 @@
     self = [super init];
     if (self)
     {
-        wrap = YES;
-        x = y = 0;
+       // wrap = YES;
+       // x = y = 0;
         width = height = 1.0;
-        scale = 1.0;
-        speed = 0.0;
-        angle = 0.0;
+        scale = 0.5;
+        speed = 200;
+        diek = 1;
         rotation = 0;
         cosTheta = 0.7;
         sinTheta = 0.5;
@@ -135,10 +133,11 @@
         g = 1.0;
         b = 1.0;
         alpha = 1.0;
-        offScreen = NO;
-        box = CGRectMake(0, 0, 0, 0);
+       
+      //  box = CGRectMake(0, 0, 0, 0);
         frame = 0;
-        render =  YES;
+        flag = YES;
+        
     }
     return self;
 }

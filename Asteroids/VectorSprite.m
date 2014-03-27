@@ -15,7 +15,7 @@
 -(void) setScale:(CGFloat) s
 {
     self.vectorScale = s;
-    scale = 8.0;
+   // scale = 8.0;
     [self updateSize];
 }
 

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D1895A141895DA63005D9D70"
                BuildableName = "Asteroids.app"
                BlueprintName = "Asteroids"
-               ReferencedContainer = "container:Asteroids.xcodeproj">
+               ReferencedContainer = "container:ant.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D1895A351895DA63005D9D70"
                BuildableName = "AsteroidsTests.xctest"
                BlueprintName = "AsteroidsTests"
-               ReferencedContainer = "container:Asteroids.xcodeproj">
+               ReferencedContainer = "container:ant.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "D1895A141895DA63005D9D70"
             BuildableName = "Asteroids.app"
             BlueprintName = "Asteroids"
-            ReferencedContainer = "container:Asteroids.xcodeproj">
+            ReferencedContainer = "container:ant.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "D1895A141895DA63005D9D70"
             BuildableName = "Asteroids.app"
             BlueprintName = "Asteroids"
-            ReferencedContainer = "container:Asteroids.xcodeproj">
+            ReferencedContainer = "container:ant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "D1895A141895DA63005D9D70"
             BuildableName = "Asteroids.app"
             BlueprintName = "Asteroids"
-            ReferencedContainer = "container:Asteroids.xcodeproj">
+            ReferencedContainer = "container:ant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

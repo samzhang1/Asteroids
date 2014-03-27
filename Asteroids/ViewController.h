@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (assign)  UIView *sball;
+
+
+
 
 
 @end

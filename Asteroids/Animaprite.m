@@ -6,13 +6,16 @@
 //  Copyright (c) 2014 sam. All rights reserved.
 //
 
-#import "AtlasSprite.h"
+#import "Animasprite.h"
 
-@implementation AtlasSprite
+@implementation Animasprite
+
+
+
 @synthesize rows, columns;
-@synthesize image, atlas, atlasWidth, atlasHeight, clipRect, w2, h2;
+@synthesize image, anima, animaWidth, animaHeight, clipRect, halfw, halfh;
 
-+(NSMutableDictionary *) sharedspriteAtlas
++(NSMutableDictionary *) sharedspriteanima
 {
     static NSMutableDictionary *sharedSpriteDictionary;
     @synchronized(self)
@@ -26,9 +29,9 @@
     return sharedSpriteDictionary;
 }
 
-+ (UIImage *) getSpriteAtlas:(NSString *) name
++ (UIImage *) getSpriteanima:(NSString *)name
 {
-    NSMutableDictionary *d = [AtlasSprite sharedspriteAtlas];
+    NSMutableDictionary *d = [Animasprite sharedspriteanima];
     UIImage *img = [d objectForKey: name];
     if (!img)
     {
@@ -39,26 +42,26 @@
     
 }
 
-+ (AtlasSprite *) fromFile:(NSString *)fname withRows:(int)rows withColume:(int)columns
++ (Animasprite *) fromFile:(NSString *)fname withRows:(int)rows withColume:(int)columns
 {
-    AtlasSprite *s = [[AtlasSprite alloc] init];
-    s.atlas = [AtlasSprite getSpriteAtlas:fname];
-    CGImageRef img = [s.atlas CGImage];
+    Animasprite *s = [[Animasprite alloc] init];
+    s.anima = [Animasprite getSpriteanima:fname];
+    CGImageRef img = [s.anima CGImage];
     s.image = img;
     
     int width = CGImageGetWidth(s.image);
     int height = CGImageGetHeight(s.image);
     if (rows < 1) {rows = 1;}
     if (columns <1) {columns = 1;}
-    s.atlasWidth = width;
-    s.atlasHeight = height;
+    s.animaWidth = width;
+    s.animaHeight = height;
     s.rows = rows;
     s.columns = columns;
     s.width = round(width/ s.columns);
     s.height = round(height/ s.rows);
-    s.w2 = s.width * 0.5;
-    s.h2 = s.height * 0.5;
-    s.clipRect = CGRectMake(-s.width * 0.5, -s.height * 0.5, s.width, s.height);
+    s.halfw = s.width * 0.5;
+    s.halfh = s.height * 0.5;
+    s.clipRect = CGRectMake(-s.halfw, -s.halfh, s.width, s.height);
     return s;
     
 }
@@ -67,18 +70,18 @@
 {
     int r0 = floor(frame / columns);
     int c0 = frame - columns * r0;
-    CGFloat u = c0 * width + w2;
-    CGFloat v = atlasHeight - (r0 * height + h2);
+    CGFloat u = c0 * width + halfw;
+    CGFloat v = animaHeight - (r0 * height + halfh);
     CGContextBeginPath(context);
     CGContextAddRect(context, clipRect);
     CGContextClip(context);
-    CGContextDrawImage(context, CGRectMake(-u, -v, atlasWidth, atlasHeight), image);
+    CGContextDrawImage(context, CGRectMake(-u, -v, animaWidth, animaHeight), image);
 }
 
 - (id) init
 {
     self = [super init];
-    if (self) { rows = 0;}
+    if (self) { rows = 0; columns = 0;}
     return self;
 }
 
