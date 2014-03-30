@@ -14,6 +14,7 @@
     CGFloat *points;
     int count;
     CGFloat vectorScale;
+    
 }
 
 @property (assign) int count;

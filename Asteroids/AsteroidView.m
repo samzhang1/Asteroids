@@ -12,8 +12,9 @@
 #import "Animasprite.h"
 #import "Sprite.h"
 #import "ViewController.h"
-#import "textsprite.h"
+//#import "textsprite.h"
 #import "ViewController.h"
+
 
 @implementation AsteroidView
 
@@ -30,7 +31,9 @@ float theInterval = 0.05;
 
 float ang = 0;
 int i;
-static int leaf[] = {0,1,2,3,4,5,6,7,8,9};
+//NSArray *song = [NSArray arrayWithObjects:@(@"help",@"Die",@"jiegui",@"God",@"Aeiyue",@"At",nil)];
+//NSArray *song[6] = {@"help",@"Die",@"jiegui",@"God",@"Aeiyue",@"At", nil};
+
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -57,10 +60,20 @@ static int leaf[] = {0,1,2,3,4,5,6,7,8,9};
 {
     
     
-    
+   NSArray *song[] = {@"song0",@"song1",@"song2",@"song3",@"song4",@"song5",@"song6",
+       @"song7",@"song8",@"song9",@"song10",@"song11"};
     
        if (self = [super initWithCoder: coder])
     {
+        int i;
+        for (i=0; i<10; i++)
+        {
+        surl[i] = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:
+                 song[i] ofType: @"wav"]];
+            
+           AudioServicesCreateSystemSoundID((__bridge CFURLRef)surl[i], &(sid[i]));
+        }
+        
         leaf = [Animasprite fromFile: @"leaf.png" withRows:1 withColume:10];
         
         for (i=0; i<n; i++)
@@ -81,6 +94,7 @@ static int leaf[] = {0,1,2,3,4,5,6,7,8,9};
     }
     
     return self;
+   
     
 }
 
@@ -99,8 +113,14 @@ static int leaf[] = {0,1,2,3,4,5,6,7,8,9};
             antmark += 10;
             
             ants[i].diek = 0;
+             
+            AudioServicesPlayAlertSound(sid[i]);
+             
             i = n;
             touchflag = NO;
+          
+             
+            
          }
           
       }

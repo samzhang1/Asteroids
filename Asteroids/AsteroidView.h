@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #include "Sprite.h"
 #include "Animasprite.h"
+#include <AudioToolbox/AudioToolbox.h>
 
 
 @interface AsteroidView : UIView
@@ -33,8 +34,11 @@
     CGFloat otouchy;
     int  mapleframe;
     int level;
-    
+    SystemSoundID sid[10];
+   // NSArray *song[6];
+    NSURL * surl[6];
 }
+    
 @property (retain, nonatomic) IBOutlet UILabel *mark;
 @property (retain, nonatomic) IBOutlet UITextField *marks;
 //@property (assign) int mapleframe, frame;
