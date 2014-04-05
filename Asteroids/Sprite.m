@@ -72,19 +72,19 @@ float cosThet;
     {
         
         self.leaf = NO;
-        int n;
-        n = (random() % 100) / 10;
+      //  int n;
+      //  n = (random() % 100) / 10;
         //sink = n * sinTheta / 0.5;
        // sink = y/x *sinTheta/0.5;
        // cosk = n * cosTheta / 0.7;
        // cosk = y/x* cosTheta/0.5;
-        speedk = random() % 1000;
+        speedk = random() % 200;
         
     }
     flag = NO;
-    dt = 0.03;
- 
-     sdt = (speed+speedk) * dt;
+    dt = 0.05;
+    
+     sdt = (speed+speedk+100) * dt;
     x += (sdt * cosThet + cosk) * diek ;
     y += (sdt * sinThet + sink) * diek ;
     
@@ -102,16 +102,21 @@ float cosThet;
  
 -(void)draw: (CGContextRef) context
 {
-
+    
     CGContextSaveGState(context);
     CGAffineTransform t = CGAffineTransformIdentity;
+   
     t = CGAffineTransformTranslate(t, x + 320 , y + 480 );
+  
     t = CGAffineTransformRotate(t, rotation);
     t = CGAffineTransformScale(t, scale, scale);
+   
     CGContextConcatCTM(context, t);
- 
+    CGContextSetAlpha(context, alpha);
+   
+   
     [self drawBody:context];
-  //  CGContextDrawPath(context, kCGPathEOFill);
+
   
 }
 
@@ -120,6 +125,7 @@ float cosThet;
     self = [super init];
     if (self)
     {
+        
        // wrap = YES;
        // x = y = 0;
         width = height = 1.0;
@@ -132,7 +138,7 @@ float cosThet;
         r = 1.0;
         g = 1.0;
         b = 1.0;
-        alpha = 1.0;
+        alpha = 0;
        
       //  box = CGRectMake(0, 0, 0, 0);
         frame = 0;

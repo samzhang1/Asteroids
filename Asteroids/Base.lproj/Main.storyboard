@@ -49,11 +49,6 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="EoU-Md-QGl"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="tree.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="igu-sh-jU0">
-                                <rect key="frame" x="0.0" y="48" width="320" height="520"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -68,9 +63,6 @@
             <point key="canvasLocation" x="112" y="103"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="tree.PNG" width="103" height="89"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

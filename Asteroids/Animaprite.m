@@ -68,6 +68,7 @@
 
 - (void) drawBody: (CGContextRef) context;
 {
+   
     int r0 = floor(frame / columns);
     int c0 = frame - columns * r0;
     CGFloat u = c0 * width + halfw;
@@ -76,6 +77,7 @@
     CGContextAddRect(context, clipRect);
     CGContextClip(context);
     CGContextDrawImage(context, CGRectMake(-u, -v, animaWidth, animaHeight), image);
+    
 }
 
 - (id) init
