@@ -60,7 +60,7 @@ int  dismark =0;
     timecon = 0;
 
     so = [audiosprite alloc];
-    [so initaudio ];
+    //[so initaudio ];
    
        if (self = [super initWithCoder: coder])
     {
@@ -81,25 +81,7 @@ int  dismark =0;
         
         leaf = [Animasprite fromFile: @"leaf.png" withRows:1 withColume:10];
         backpic = [Animasprite fromFile:@"glass.PNG" withRows:1 withColume:4];
-     /*   backpic.frame = 1;
-        backpic.alpha = 1;
-        backpic.scale = 4;
-        backpic.x = 100;
-        backpic.y = 200;
-  
-        CGContextRef context = UIGraphicsGetCurrentContext();
-        
-        CGContextSaveGState(context);
-      //  [self setNeedsDisplay];
-        CGAffineTransform t0 = CGContextGetCTM(context);
-        t0 = CGAffineTransformInvert(t0);
-        CGContextConcatCTM(context, t0);
-        
-        [backpic draw: context];
-        
-        CGContextRestoreGState(context);
-       
-        */
+    
         
         for (i=0; i<n; i++)
         {
@@ -147,6 +129,7 @@ int  dismark =0;
             antmark += 10;
             
             ants[i].diek = 0;
+             //int j = random() % 15;
              
             AudioServicesPlaySystemSound(sid[i]);
            

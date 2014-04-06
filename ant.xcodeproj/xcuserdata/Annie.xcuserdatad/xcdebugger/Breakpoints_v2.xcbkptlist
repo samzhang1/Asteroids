@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -426,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -522,11 +522,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "@implementation AsteroidView"
             landmarkType = "3">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -714,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -906,11 +906,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1018,11 +1018,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "246"
-            endingLineNumber = "246"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1082,11 +1082,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-drawRect:"
             landmarkType = "5">
             <Locations>
@@ -1208,11 +1208,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1240,11 +1240,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1320,11 +1320,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1352,11 +1352,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1400,11 +1400,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1416,11 +1416,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1448,11 +1448,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1464,11 +1464,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "254"
-            endingLineNumber = "254"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1576,11 +1576,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1592,11 +1592,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1608,11 +1608,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1624,11 +1624,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1656,11 +1656,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1672,11 +1672,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1688,11 +1688,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1704,11 +1704,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1720,23 +1720,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
-            landmarkName = "-gameLoop:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "167"
@@ -1752,11 +1736,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "-gameLoop:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Asteroids/AsteroidView.m"
+            timestampString = "418436907.034786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
             <Locations>
@@ -1798,11 +1798,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1814,11 +1814,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1830,11 +1830,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1846,11 +1846,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1894,11 +1894,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1958,11 +1958,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2054,11 +2054,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2070,28 +2070,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "-drawRect:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "-initWithCoder:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2118,27 +2102,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418358133.983042"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "-initWithCoder:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2150,11 +2118,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "235"
-            endingLineNumber = "235"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2166,11 +2134,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2182,11 +2150,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2214,11 +2182,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2230,11 +2198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Asteroids/AsteroidView.m"
-            timestampString = "418407566.758577"
+            timestampString = "418436907.034786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-gameLoop:"
             landmarkType = "5">
             <Locations>
